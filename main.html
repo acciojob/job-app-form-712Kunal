@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
@@ -7,10 +6,42 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<form action="" method="post">
 
+		<label for="name">Name</label>
+		<input type="text" required id="name" placeholder="Name">
+
+		<label for="email">Email</label>
+		<input type="email" required id="email" placeholder="Email">
+
+		<label>Gender</label>
+		<input type="radio" required id="male" name="gender">
+		<label for="male">Male</label>
+
+		<label for="laptop">Select Laptop Brands</label>
+		<select multiple id="laptop">
+			<option>Apple</option>
+			<option>Asus</option>
+			<option>HP</option>
+		</select>
+
+		<label for="age">Age</label>
+		<input type="number" required id="age">
+
+		<label for="dob">Date of Birth</label>
+		<input type="date" required id="dob">
+
+		<label for="password">Password</label>
+		<input type="password" required id="password" placeholder="Password">
+		
+		<label for="portfolio">Portfolio URL</label>
+		<input type="url" required id="portfolio">
+
+		<button type="submit">Submit</button>
+
+	</form>
+
+	<script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
